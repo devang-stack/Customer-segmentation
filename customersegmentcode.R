@@ -32,6 +32,17 @@ hist(customer_data$Age,
      xlab="Age Class",
      ylab="Frequency",
      labels=TRUE)
+boxplot(customer_data$Age,
+        col="ff0066",
+        main="Boxplot for Descriptive Analysis of Age")
+#visualization to analyze the anual income of the customer
+summary(customer_data$Annual.Income..k..)
+hist(customer_data$Annual.Income..k..,
+     col="#660033",
+     main="Histogram for Annual Income",
+     xlab="Annual Income Class",
+     ylab="Frequency",
+     labels=TRUE)
 
 
 
