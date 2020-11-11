@@ -32,9 +32,9 @@ hist(customer_data$Age,
      xlab="Age Class",
      ylab="Frequency",
      labels=TRUE)
-boxplot(customer_data$Age,
-        col="ff0066",
-        main="Boxplot for Descriptive Analysis of Age")
+#boxplot(customer_data$Age,
+       # col="ff0066",
+      #  main="Boxplot for Descriptive Analysis of Age")
 #visualization to analyze the anual income of the customer
 summary(customer_data$Annual.Income..k..)
 hist(customer_data$Annual.Income..k..,
@@ -43,6 +43,31 @@ hist(customer_data$Annual.Income..k..,
      xlab="Annual Income Class",
      ylab="Frequency",
      labels=TRUE)
+plot(density(customer_data$Annual.Income..k..),
+    col="yellow",
+    main="Density Plot for Annual Income",
+    xlab="Annual Income Class",
+    ylab="Density")
+
+summary(customer_data$Spending.Score..1.100.)
+Min. 1st Qu. Median Mean 3rd Qu. Max. 
+## 1.00 34.75 50.00 50.20 73.00 99.00
+boxplot(customer_data$Spending.Score..1.100.,
+   horizontal=TRUE,
+   col="#990000",
+   main="BoxPlot for Descriptive Analysis of Spending Score")
+hist(customer_data$Spending.Score..1.100.,
+    main="HistoGram for Spending Score",
+    xlab="Spending Score Class",
+    ylab="Frequency",
+    col="#6600cc",
+    labels=TRUE)
+
+
+
+
+
+
 
 
 
