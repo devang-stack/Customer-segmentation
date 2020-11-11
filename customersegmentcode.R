@@ -60,7 +60,7 @@ polygon(density(customer_data$Annual.Income..k..),
 
 #analyzing spending score of customer
 summary(customer_data$Spending.Score..1.100.)
-Min. 1st Qu. Median Mean 3rd Qu. Max. 
+##Min. 1st Qu. Median Mean 3rd Qu. Max. 
 ## 1.00 34.75 50.00 50.20 73.00 99.00
 boxplot(customer_data$Spending.Score..1.100.,
    horizontal=TRUE,
